@@ -1,9 +1,12 @@
+
 import React from 'react'
 import styled from "styled-components"
+import HeaderHome from '../components/Home/HeaderHome'
 const Home = () => {
   return (
     <StyleHomePage>
-        Home
+      <HeaderHome/>
+        
     </StyleHomePage>
   )
 }

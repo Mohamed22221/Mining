@@ -18,6 +18,7 @@ const GlopalStyle = createGlobalStyle`
     padding: 0;
    
 }
+
 html {
   scroll-behavior: smooth;
 }
