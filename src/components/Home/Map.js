@@ -55,6 +55,7 @@ background-size: contain;
 background-repeat: no-repeat;
 margin: 50px 0;
 position: relative;
+
 p{
     color: white;
     font-weight: 800;
@@ -108,7 +109,7 @@ p:nth-child(5){
     z-index: 10;
 
 }
-@media (max-width:850px){
+@media (max-width:1020px){
     width: 700px;
     height:400px;
     p{
