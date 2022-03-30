@@ -47,7 +47,7 @@ html {
     }
   }
 body{
-    font-family: 'Cairo', sans-serif;
+  font-family: 'Open Sans', sans-serif;
      background-color: var(--background-dark-color);
      height: 3000px;
      width: 100%;

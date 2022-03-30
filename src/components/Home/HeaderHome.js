@@ -25,6 +25,16 @@ const HeaderHome = () => {
                 <h1>$35,500,600</h1>
                 <p>colected for now</p>
                 </div>
+                <div className='color-line'>
+                <div className='title-color'>
+                <span>$4.5M</span>
+                <span>$15.5M</span>
+                </div>
+                <div className='orange-line'>
+                    <span></span>
+
+                </div>
+                </div>
             </RightHeader>
         </MainHeader>
       </Container>
@@ -108,7 +118,38 @@ background-color: var(--primary-color-obacity);
     }
     p{
     color:var(--primary-color);
-    padding: 2px;
+    padding: 3px;
+    opacity: 0.8;
+    
+    }
+}
+.color-line{
+    .title-color{
+        display: flex;
+        justify-content: space-between;
+        color: wheat;
+        font-size: 12px;
+        font-weight: 800;
+    }
+    .orange-line{
+        position: relative;
+        width: 100%;
+        height: 20px;
+        background-color: var(--primary-color);
+        border-radius: 14px;
+        margin: 8px 0;
+        
+        &::after{
+        content:"";
+        position: absolute;
+        top: -8px;
+        width: 80%;
+        height: inherit;
+        background-color: var(--orange-color);
+        border-radius: 14px;
+        margin: 8px 0;   
+        }
+        
     }
 }
 
