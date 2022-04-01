@@ -43,6 +43,10 @@ z-index: -1;
     text-align: center;
     color: white;
     font-size: 38px;
+    @media (max-width:671px){
+    margin:150px 0 0 0 ;
+        
+    }
 }
 `
 const MainRoadMap = styled.div`
@@ -51,7 +55,7 @@ justify-content: space-between;
 align-items: center;
 @media (max-width:767px) {
 flex-direction: column;
-padding: 90px 0;
+
 }
 `
 const LeftRoadMap = styled.div`

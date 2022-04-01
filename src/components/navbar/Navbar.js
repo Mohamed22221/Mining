@@ -15,6 +15,9 @@ const Navbar = () => {
     setToggle(false);
   };
   return ( 
+    <div className="main-nav">
+
+    
     <Container maxWidth="lg">
       <nav>
           <div className="logo">
@@ -67,6 +70,7 @@ const Navbar = () => {
        
       </nav>
       </Container>
+      </div>
   );
 };
 

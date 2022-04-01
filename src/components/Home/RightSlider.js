@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-
+import DataSlide from "./DataSlide"
 import styled from "styled-components"
 import Carousel from "react-elastic-carousel";
-
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import LinkIcon from '@mui/icons-material/Link';
 const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2, itemsToScroll: 1 },
@@ -10,13 +11,22 @@ const breakPoints = [
     { width: 1200, itemsToShow: 4 }
   ];
 const RightSlider = () => {
-    const [items, setItems] = useState([1, 2, 3, 4, 5, 6, 7, 8]);
+   
   return (
     <MainSlide>
          <div className="carousel-wrapper">
         <Carousel breakPoints={breakPoints}>
-          {items.map((item) => (
-            <Item key={item}>{item}</Item>
+          {DataSlide.map((item) => (
+            <Item key={item.id}>
+              <img src={item.img} />
+              <h2>{item.name}</h2>
+              <p className="jop">{item.jop}</p>
+              <div className="hover-apout">
+              <span><LinkedInIcon className="linked"/></span>
+              <p>{item.nameicon}</p>
+              <h4><LinkIcon/></h4>
+              </div>
+              </Item>
           ))}
         </Carousel>
       </div>
@@ -50,13 +60,94 @@ width: 740px;
 `
 const Item = styled.div`
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 300px;
   width: 100%;
-  background-color: #683bb7;
+  background-color: var(--primary-color-obacity);
   color: #fff;
   margin: 15px;
-  font-size: 4em;
+  position: relative;
+  height: 300px;
+  &:hover{
+
+    .hover-apout{
+      position: absolute;
+      top: 90px;
+    }
+    img{
+      opacity: 0;
+
+    }
+    h2{
+      top: 10px;
+   
+  }
+  .jop{
+
+      top: 35px;
+  }
+  }
+  img{
+    border: 10px solid white;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin: 15px 0;
+    user-select: none;
+    opacity: 1;
+    transition: 0.6s;
+
+  }
+  h2{
+    font-size: 20px;
+    padding: 10px 0;
+    position: absolute;
+      top: 190px;
+      transition: 0.6s;
+   
+  }
+  .jop{
+    padding: 15px;
+    opacity: 0.6;
+    position: absolute;
+      top: 215px;
+      transition: 0.6s;
+  }
+  .hover-apout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    padding: 30px 50px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: 0.6s;
+    position: absolute;
+     top: 330px;
+    
+    
+    h4{
+      padding: 5px 40px;
+      background-color: var(--primary-color-obacity);
+    border-radius: 30px;
+    cursor: pointer;
+    
+
+    }
+    p{
+      opacity: 0.6;
+      padding: 3px 0;
+    }
+    span .linked{
+      font-size: 50px;
+      border: 2px solid white;
+     
+
+
+      
+    }
+  }
+ 
 `
 export default RightSlider

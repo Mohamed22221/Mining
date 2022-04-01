@@ -64,6 +64,8 @@ button{
     font-weight: bold;
     border-radius: 30px;
     transition: 0.5s;
+    position: relative;
+    z-index: 10;
     &:hover{
     transform: translateY(-7px);
     }

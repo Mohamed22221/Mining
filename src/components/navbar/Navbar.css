@@ -1,3 +1,12 @@
+.main-nav{
+      position: sticky;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: var(--primary-color);
+    z-index: 200;
+}
 nav {
     color: white;
     display: flex;
@@ -6,10 +15,8 @@ nav {
     height: 70px;
     position: relative;
     z-index: 1000;
-    position: sticky;
-    right: 0;
-    top: 0;
-    left: 0;
+    
+
   }
   
   .logo {
