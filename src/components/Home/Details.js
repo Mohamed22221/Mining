@@ -5,9 +5,9 @@ import DetailsRight from './DetailsRight'
 
 const Details = () => {
   return (
-    <StyleMainDetalis>
+    <>
         <Container maxWidth="lg">
-        <MainDetalis>
+        <MainDetalis id="Prx Features">
             <LeftDetalis>
                 <h1>ICO Details</h1>
                 <p>A collection of examples of how to use react-simple-maps to createhow to use react-simple-maps to create
@@ -18,12 +18,10 @@ const Details = () => {
         </MainDetalis>
         </Container>
         
-    </StyleMainDetalis>
+    </>
   )
 }
-const StyleMainDetalis = styled.div`
 
-`
 const MainDetalis = styled.div`
 display: flex;
 justify-content: space-between;

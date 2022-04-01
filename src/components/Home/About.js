@@ -7,7 +7,7 @@ import Circle from"../../assets/circle.svg"
 
 const About = () => {
   return (
-    <StyleAbout>
+    <StyleAbout id="About">
       <Container maxWidth="lg">
         <StyleMainAbout>
           <LeftAbout>

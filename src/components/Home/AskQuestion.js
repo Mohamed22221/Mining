@@ -10,7 +10,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkIcon from '@mui/icons-material/Link';
 const AskQuestion = () => {
   return (
-    <StyleMainAsk>
+    <StyleMainAsk id="Contact">
         <Container maxWidth="lg">
          <MainAsk>
         <RightAsk>

@@ -6,7 +6,7 @@ import BacKopacity3 from"../../assets/backopacity3.svg"
 
 const RoadMap = () => {
   return (
-    <StyleRoadMap>
+    <StyleRoadMap id="Teletoken">
         <Container maxWidth="lg">
            <h1 className='title'>Company Road Map </h1>
     <MainRoadMap>

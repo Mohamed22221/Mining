@@ -22,35 +22,35 @@ const Navbar = () => {
       <nav>
           <div className="logo">
           <a onClick={boxHandler} href="#Home"  >
-            <h1>CriptoCash</h1>
+            <h1>CryptoCash</h1>
             </a>
            
         </div>
         <ul ref={linksContainer} className={toggle ? "active" : ""}>
           <li>
             
-            <a onClick={boxHandler} href="#Home"   >
+            <a onClick={boxHandler} href="#Home"  >
               Home
             </a>
           </li>
           <li>
             <a onClick={boxHandler} href='#About' >
-              About us
+              About
             </a>
           </li>
           <li>
-            <a onClick={boxHandler} href="#Services">
-              Services
+            <a onClick={boxHandler} href="#Prx Features">
+            Prx Features
             </a>
           </li>
           <li>
-            <a onClick={boxHandler}  href="#Contact">
-              Contact
+            <a onClick={boxHandler}  href="#Teletoken">
+            Teletoken
             </a>
           </li>
           <li>
-            <a onClick={boxHandler} href="#Portfolio">
-              Portfolio
+            <a onClick={boxHandler} href="#Contact">
+            Contact
             </a>
           </li>
           <li>

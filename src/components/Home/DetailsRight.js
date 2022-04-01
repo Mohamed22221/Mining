@@ -25,6 +25,7 @@ const DetailsRight = () => {
 }
 const StyleRightDetalis = styled.div`
 position: relative;
+z-index: 10;
 span{
     font-size: 34px;
     font-weight: bold;

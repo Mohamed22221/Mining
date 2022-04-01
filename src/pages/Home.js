@@ -4,6 +4,7 @@ import styled from "styled-components"
 import About from '../components/Home/About'
 import AskQuestion from '../components/Home/AskQuestion'
 import Details from '../components/Home/Details'
+import Fotter from '../components/Home/Fotter'
 import HeaderHome from '../components/Home/HeaderHome'
 import Map from '../components/Home/Map'
 import RightSlider from '../components/Home/RightSlider'
@@ -19,6 +20,7 @@ const Home = () => {
       <RoadMap />
       <AskQuestion />
       <SlideLogo/>
+      <Fotter/>
     </StyleHomePage>
   )
 }
