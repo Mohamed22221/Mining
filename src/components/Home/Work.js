@@ -59,13 +59,14 @@ justify-content: space-between;
 `
 const LeftWork = styled.div`
 padding: 50px 0 0 0;
+
 img{
     -webkit-animation: Rotate 9s linear infinite;
      animation: Rotate 16s linear infinite;
     width: 350px;
     position: relative;
     @media (max-width:960px) {
-        width:95%
+        width:260px
     }
     }
 @media (max-width:960px) {
