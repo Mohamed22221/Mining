@@ -24,10 +24,10 @@ html {
 }
 @keyframes MoveUpDown {
     0%, 100% {
-    left: 0;
+    transform:translateY(0);
     }
     50% {
-    left: 15px;
+      transform:translateY(20px);
     }
   }
   @keyframes  MoveUpDownLeft {
