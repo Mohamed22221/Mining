@@ -2,6 +2,8 @@ import { Container } from '@mui/material'
 import React from 'react'
 import styled from "styled-components"
 import WorkImg from "../../assets/work.png"
+
+
 import DoneIcon from '@mui/icons-material/Done';
 const Work = () => {
     return (
@@ -59,15 +61,17 @@ const LeftWork = styled.div`
 padding: 50px 0 0 0;
 img{
     -webkit-animation: Rotate 9s linear infinite;
-          animation: Rotate 16s linear infinite;
-        width: 350px;
+     animation: Rotate 16s linear infinite;
+    width: 350px;
+    position: relative;
     @media (max-width:960px) {
         width:95%
-}
+    }
     }
 @media (max-width:960px) {
     width: 300px;
 }
+
 `
 const RightWork = styled.div`
 padding: 50px 0 0 0;

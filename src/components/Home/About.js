@@ -84,6 +84,7 @@ p{
 }
 `
 const RightAbout =styled.div`
+
 h1{
 color: white;
 padding: 25px 0;
@@ -96,7 +97,7 @@ font-size: 45px;
 }
 
 p{
-  width: 500px;
+  width: 600px;
   padding: 15px 0;
   color: white;
   opacity: 0.6;
