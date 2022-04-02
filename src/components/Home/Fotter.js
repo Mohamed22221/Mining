@@ -13,9 +13,9 @@ const Fotter = () => {
                 <div className='a'>
                   <a href='#Home'>Home</a>
                   <a href='#About'>About</a> 
-                  <a href='#Prx Features'>Prx Features</a> 
-                  <a href='#Teletoken'>Teletoken</a>
-                  <a href='#Contact'>Contact</a>    
+                  <a href='#Contact'>Contact</a>   
+                  <a href='#Powerd BY'>Powerd BY</a>
+                   
                 </div>
            
             </TopFotter> 

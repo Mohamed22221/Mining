@@ -14,7 +14,7 @@ const SlideLogo = () => {
 
       ];
   return (
-    <StyleSlideRight>
+    <StyleSlideRight id='Powerd BY'>
         <Container maxWidth="lg">
 
 
@@ -33,6 +33,8 @@ const SlideLogo = () => {
   )
 }
 const StyleSlideRight =styled.div`
+position: relative;
+z-index: 10;
 margin: 80px 0;
 .controls-wrapper {
   width: 100%;

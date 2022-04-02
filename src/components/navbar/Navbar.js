@@ -39,29 +39,17 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a onClick={boxHandler} href="#Prx Features">
-            Prx Features
-            </a>
-          </li>
-          <li>
-            <a onClick={boxHandler}  href="#Teletoken">
-            Teletoken
-            </a>
-          </li>
-          <li>
             <a onClick={boxHandler} href="#Contact">
             Contact
             </a>
           </li>
           <li>
-          <ButtonLogin titleLogin="Log in" onClick={boxHandler}/>
-          </li>
-          <li>
-            
-            <ButtonRegester title="Register" onClick={boxHandler} />
+            <a onClick={boxHandler}  href="#Powerd BY">
+            Powerd BY
+            </a>
           </li>
           
-  
+
         </ul>
         <div onClick={handleToggle} className="toggle-button">
           <i className={toggle ? "fas fa-times" : "fas fa-bars"}></i>

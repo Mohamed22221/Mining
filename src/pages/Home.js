@@ -6,7 +6,7 @@ import AskQuestion from '../components/Home/AskQuestion'
 import Details from '../components/Home/Details'
 import Fotter from '../components/Home/Fotter'
 import HeaderHome from '../components/Home/HeaderHome'
-import Map from '../components/Home/Map'
+import Work from '../components/Home/Work'
 import RightSlider from '../components/Home/RightSlider'
 import RoadMap from '../components/Home/RoadMap'
 import SlideLogo from '../components/Home/SlideLogo'
@@ -15,7 +15,7 @@ const Home = () => {
     <StyleHomePage>
       <HeaderHome/>
       <About/>
-      <Map/>
+      <Work/>
       <Details/>
       <RoadMap />
       <AskQuestion />

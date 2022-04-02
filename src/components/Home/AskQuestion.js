@@ -2,11 +2,8 @@ import { Container } from '@mui/material'
 import React from 'react'
 import styled from "styled-components"
 import ButtonAsk from '../glopal/ButtonAsk'
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import TelegramIcon from '@mui/icons-material/Telegram';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import wats from "../../assets/wats.png"
+import insta from "../../assets/insta.png"
 import LinkIcon from '@mui/icons-material/Link';
 const AskQuestion = () => {
   return (
@@ -20,35 +17,16 @@ const AskQuestion = () => {
         </RightAsk>
         <LeftAsk>
         <div className='item-left'>
-            <span><LinkedInIcon className='icon-left' /></span>
-            <h4>Linked</h4>
+            <img src={wats} />
+            <h4>WhatsApp</h4>
             <p><LinkIcon className='icon-link' /></p>
         </div>
         <div className='item-left'>
-            <span><FacebookIcon className='icon-left' /></span>
-            <h4>Facebook</h4>
+            <img src={insta}  />
+            <h4>Instagram</h4>
             <p><LinkIcon className='icon-link' /></p>
         </div>
-        <div className='item-left'>
-            <span><TwitterIcon className='icon-left' /></span>
-            <h4>Twitter</h4>
-            <p><LinkIcon className='icon-link' /></p>
-        </div>
-        <div className='item-left'>
-            <span><TelegramIcon className='icon-left' /></span>
-            <h4>Telegram</h4>
-            <p><LinkIcon className='icon-link' /></p>
-        </div>
-        <div className='item-left'>
-            <span><GitHubIcon className='icon-left' /></span>
-            <h4>GitHub</h4>
-            <p><LinkIcon className='icon-link' /></p>
-        </div>
-        <div className='item-left'>
-            <span><LinkedInIcon className='icon-left' /></span>
-            <h4>Linked</h4>
-            <p><LinkIcon className='icon-link' /></p>
-        </div>
+       
         </LeftAsk>
         </MainAsk>   
         </Container>
@@ -109,24 +87,12 @@ padding-left: 40px;
     color: white;
     width: 100%;
     &:nth-child(1){
-        background-color: #0A66C2;
+        background-color: #128C7E;
     }
     &:nth-child(2){
-        background-color: #4267B2;
+        background-color:  #C13584;
     }
-    &:nth-child(3){
-        background-color: #1DA1F2;
-    }
-    &:nth-child(4){
-        background-color: #0088cc;
-    }
-    &:nth-child(5){
-        background-color:#303030;
-    }
-    &:nth-child(6){
-        background-color: #0A66C2;
-    }
-    
+
     .icon-left{
         font-size:50px ;
         border: 2px solid white;
@@ -140,12 +106,10 @@ padding-left: 40px;
         padding: 5px 60px;
       background-color: transparent;
       transition: 0.5s;
-      border: 3px solid var(--primary-color-obacity);
+      border: 3px solid white;
     border-radius: 30px;
     cursor: pointer;
-    &:hover{
-        background-color: var(--primary-color-obacity);  
-    }
+
     }
 }
   
