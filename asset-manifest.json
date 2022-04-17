@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mining/static/css/main.79ad6379.css",
-    "main.js": "/Mining/static/js/main.d23d80ac.js",
+    "main.css": "/Mining/static/css/main.750971f1.css",
+    "main.js": "/Mining/static/js/main.9e4991b3.js",
     "static/media/backopacity.svg": "/Mining/static/media/backopacity.8050760047fab087633098b9fe43a59b.svg",
     "static/media/circle.svg": "/Mining/static/media/circle.015a5560bd2c953ad887b9e97e3f33e9.svg",
     "static/media/person3.png": "/Mining/static/media/person3.7d4c0cff680ce31c1138.png",
@@ -9,14 +9,15 @@
     "static/media/person4.png": "/Mining/static/media/person4.7fa4e8855d03bce7b043.png",
     "static/media/person2.png": "/Mining/static/media/person2.afc8692dc8b0c181f699.png",
     "static/media/person1.jpg": "/Mining/static/media/person1.d9bfe159bbebf5906c79.jpg",
+    "static/media/logo.png": "/Mining/static/media/logo.ea90db6ba928820387a5.png",
     "index.html": "/Mining/index.html",
     "static/media/backopacity3.svg": "/Mining/static/media/backopacity3.71a2a751014825bdd66d09ccf23f0717.svg",
     "static/media/backopacity2.svg": "/Mining/static/media/backopacity2.bba8149cbf80f5cabfefd4a7dd0e3961.svg",
-    "main.79ad6379.css.map": "/Mining/static/css/main.79ad6379.css.map",
-    "main.d23d80ac.js.map": "/Mining/static/js/main.d23d80ac.js.map"
+    "main.750971f1.css.map": "/Mining/static/css/main.750971f1.css.map",
+    "main.9e4991b3.js.map": "/Mining/static/js/main.9e4991b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.79ad6379.css",
-    "static/js/main.d23d80ac.js"
+    "static/css/main.750971f1.css",
+    "static/js/main.9e4991b3.js"
   ]
 }
