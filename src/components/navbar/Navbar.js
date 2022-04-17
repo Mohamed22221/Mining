@@ -1,9 +1,8 @@
 import React, { useState, useRef } from "react";
 import { Container } from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
+import logo from"../../assets/logo.png"
 import "./Navbar.css";
-import ButtonRegester from "../glopal/ButtonRegester";
-import ButtonLogin from "../glopal/ButtonLogin";
+
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -22,7 +21,7 @@ const Navbar = () => {
       <nav>
           <div className="logo">
           <a onClick={boxHandler} href="#Home"  >
-            <h1>CryptoCash</h1>
+            <img src={logo} />
             </a>
            
         </div>

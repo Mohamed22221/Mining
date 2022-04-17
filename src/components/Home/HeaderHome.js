@@ -12,7 +12,9 @@ const HeaderHome = () => {
         <MainHeader>
             <LeftHeader>
                 <h1  >Safest Mining Network</h1>
-                <p>We operate your mining equipment at a 400% cheaper electricity price compared to global averages so that you can enjoy mining Bitcoin long-term. Watch this new asset class grow and become an early adopter.</p>
+                <p>We operate your mining equipment at 400% cheaper electricity compared to global averages so that you
+                can enjoy bitcoin mining in the long term. Watch the new asset class grow and become an early adopter
+                </p>
                 <TwoButtonHeader/>
             </LeftHeader>
             <RightHeader>

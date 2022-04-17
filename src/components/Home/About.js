@@ -15,8 +15,12 @@ const About = () => {
           </LeftAbout>
           <RightAbout>
           <h1>What Is Crypto Cash ?</h1>
-          <p>We operate your mining equipment at a 400% cheaper electricity price compared to global averages so that you can enjoy mining Bitcoin long-term. Watch this new asset class grow and become an early adopter.</p>
-          <p>We operate your mining equipment at a 400% cheaper electricity price compared to global averages so that you can enjoy mining Bitcoin long-term. Watch this new asset class grow and become an early adopter.</p>
+          <p>Every transaction made on the digital currency is added encrypted to the block chain network or blockchain
+in order for it to be considered a successful and valid transaction. Transactions are validated and added to
+the blockchain by miners, which are powerful computers that are part of the network and confirm their
+transactions</p>
+          <p>And in front of each added block / transaction, authenticated and valid, the miner gets a reward, which is
+the digital currency on which the network as a whole is based.</p>
           <button>Learn More About This Project</button>
           </RightAbout>
         </StyleMainAbout>

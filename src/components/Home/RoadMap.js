@@ -13,7 +13,9 @@ const RoadMap = () => {
                
         <LeftRoadMap>
         <h1>Meet The Advisors</h1>
-        <p>Whether you’re looking for information on specific projects in the space, wondering how to start mining, or looking for expert direction on blockchain services, we can help. One or more of our team members will call you for a free consultation.</p>
+        <p>If you are looking for information on specific projects in the space, want to know how to start mining, or
+are looking for someone with competence to guide you through blockchain services, we can help. We have
+a team available for all inquiries and free consultation, contact us.</p>
         </LeftRoadMap>
         <RightSlider/>
     </MainRoadMap>      

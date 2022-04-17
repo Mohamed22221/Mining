@@ -10,8 +10,12 @@ const Details = () => {
         <MainDetalis id="Prx Features">
             <LeftDetalis>
                 <h1>ICO Details</h1>
-                <p>A collection of examples of how to use react-simple-maps to createhow to use react-simple-maps to create
-                 various mapcharts, maps with labels, markers, lines and annotations.</p>
+                <p>Cryptocurrency mining is now becoming a fruitful investment alternative all over the world, as more and more
+people are showing interest in earning more. Earlier mining could be done by any of the computing devices,
+but due to the difficulty of the algorithms, it increased in intensity over time. The data and computational
+sorting in mining has been taken care of by advanced automated machines known as Antminers and GUIs
+capable of massive mining and making profits. However, despite the huge mining power and accuracy, there
+are still many challenges for miners, which are as follows.</p>
                 <button>Contribute Now </button> 
             </LeftDetalis>
             <DetailsRight/> 

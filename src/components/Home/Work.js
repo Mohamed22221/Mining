@@ -19,7 +19,9 @@ const Work = () => {
                     </LeftWork>
                     <RightWork>
                     <h1>We’ve built a platform to buy and sell shares.</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
+                    <p>Through our platform, you can monitor the movement of stocks and you can determine when you can buy
+when their price decreases, as well as sell when prices rise, which will certainly benefit you to be one of the
+largest capitals in trading. Join our platform now and do not hesitate, we provide you Steps to ensure your succes</p>
                     <div className='three-work'>
                     <span><DoneIcon className='done-icon'/>Lorem Ipsum is simply dummy text of the printing and typesetting</span>
                     <span><DoneIcon className='done-icon'/>Lorem Ipsum is simply dummy text of the printing and typesetting</span>

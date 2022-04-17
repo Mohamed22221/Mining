@@ -24,8 +24,8 @@ nav {
     align-items: center;
     color: white;
   }
-  .logo img {
-      width: 170px;
+  .logo a img {
+      width: 65px;
       
   }
   .logo a h1 {
