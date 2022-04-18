@@ -2,13 +2,14 @@
 import { Container } from '@mui/material'
 import React from 'react'
 import styled from "styled-components"
+import logo from"../../assets/logo.png"
 const Fotter = () => {
   return (
     <StyleMainFotter>
         <Container maxWidth="lg">
              <TopFotter>
                  <div className='logo'>
-                 <h1>CryptoCash</h1>
+                    <a href='#Home'> <img src={logo}  /></a>
                  </div>
                 <div className='a'>
                   <a href='#Home'>Home</a>
@@ -26,7 +27,6 @@ const Fotter = () => {
 }
 const StyleMainFotter = styled.div`
 border-top: 1px solid #ebebeb69;
-
 padding: 40px;
 `
 const TopFotter = styled.div`
@@ -34,6 +34,12 @@ const TopFotter = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    .logo{
+           img{
+               width: 80px;
+               cursor: pointer;
+           }
+        }
     @media (max-width:1000px) {
         flex-direction: column;
         align-items: flex-start;
@@ -59,7 +65,5 @@ const TopFotter = styled.div`
     }
 
 `
-const BottomFotter = styled.div`
 
-`
 export default Fotter

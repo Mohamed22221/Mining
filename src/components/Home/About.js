@@ -16,11 +16,11 @@ const About = () => {
           <RightAbout>
           <h1>What Is Crypto Cash ?</h1>
           <p>Every transaction made on the digital currency is added encrypted to the block chain network or blockchain
-in order for it to be considered a successful and valid transaction. Transactions are validated and added to
-the blockchain by miners, which are powerful computers that are part of the network and confirm their
-transactions</p>
+          in order for it to be considered a successful and valid transaction. Transactions are validated and added to
+t         he blockchain by miners, which are powerful computers that are part of the network and confirm their
+            transactions</p>
           <p>And in front of each added block / transaction, authenticated and valid, the miner gets a reward, which is
-the digital currency on which the network as a whole is based.</p>
+          the digital currency on which the network as a whole is based.</p>
           <button>Learn More About This Project</button>
           </RightAbout>
         </StyleMainAbout>
@@ -31,11 +31,11 @@ the digital currency on which the network as a whole is based.</p>
 const StyleAbout =styled.div`
 padding: 40px 0;
 position: relative;
-z-index: 1;
+z-index: 40;
 &::before{
 content: "";
 position: absolute;
-top: -70px;
+top: -20px;
 right: 0;
 left: 0;
 background-image: url(${BacKopacity2});

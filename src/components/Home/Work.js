@@ -10,7 +10,7 @@ const Work = () => {
         <StyleMap>
             <Container maxWidth="lg">
                 <div className='title'>
-                    <p>WHAT IS CRYPTOCASH</p>
+                    <p>WHAT IS MINING SYSTEM</p>
                     <h1>How it Works</h1>
                 </div>
                 <MainWork>
@@ -18,14 +18,12 @@ const Work = () => {
                         <img src={WorkImg}/>
                     </LeftWork>
                     <RightWork>
-                    <h1>We’ve built a platform to buy and sell shares.</h1>
-                    <p>Through our platform, you can monitor the movement of stocks and you can determine when you can buy
-when their price decreases, as well as sell when prices rise, which will certainly benefit you to be one of the
-largest capitals in trading. Join our platform now and do not hesitate, we provide you Steps to ensure your succes</p>
+                    <h1>Why 64 mining  is you choice ?</h1>
+                    <p>When you deal with us in your mining construction, you can monitor the revenue, collect through us, maintain and you can sell at high prices, which will definitely benefit you to be one of the largest capital in trading. Join our team now and don't hesitate, we offer you steps to ensure your success</p>
                     <div className='three-work'>
-                    <span><DoneIcon className='done-icon'/>Lorem Ipsum is simply dummy text of the printing and typesetting</span>
-                    <span><DoneIcon className='done-icon'/>Lorem Ipsum is simply dummy text of the printing and typesetting</span>
-                    <span><DoneIcon className='done-icon'/>Lorem Ipsum is simply dummy text of the printing and typesetting</span>
+                    <span><DoneIcon className='done-icon'/>The costs of setting up and installing mines. </span>
+                    <span><DoneIcon className='done-icon'/>Hardware maintenance.</span>
+                    <span><DoneIcon className='done-icon'/>Withdraw cash of any risk</span>
                     </div>
                     </RightWork>
                 </MainWork>
@@ -104,6 +102,9 @@ p{
     span{
     padding:8px 0 ;
     color: white;
+    @media (max-width:398px) {
+        font-size: 14px;
+    }
     }
     .done-icon{
         color: black;

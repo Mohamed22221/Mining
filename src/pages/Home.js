@@ -9,7 +9,7 @@ import HeaderHome from '../components/Home/HeaderHome'
 import Work from '../components/Home/Work'
 import RightSlider from '../components/Home/RightSlider'
 import RoadMap from '../components/Home/RoadMap'
-import SlideLogo from '../components/Home/SlideLogo'
+
 const Home = () => {
   return (
     <StyleHomePage>
@@ -19,7 +19,6 @@ const Home = () => {
       <Details/>
       <RoadMap />
       <AskQuestion />
-      <SlideLogo/>
       <Fotter/>
     </StyleHomePage>
   )

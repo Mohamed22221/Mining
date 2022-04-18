@@ -21,11 +21,6 @@ const RightSlider = () => {
               <img src={item.img} />
               <h2>{item.name}</h2>
               <p className="jop">{item.jop}</p>
-              <div className="hover-apout">
-              <span><LinkedInIcon className="linked"/></span>
-              <p>{item.nameicon}</p>
-              <h4><LinkIcon/></h4>
-              </div>
               </Item>
           ))}
         </Carousel>
@@ -68,25 +63,7 @@ const Item = styled.div`
   margin: 15px;
   position: relative;
   height: 300px;
-  &:hover{
 
-    .hover-apout{
-      position: absolute;
-      top: 90px;
-    }
-    img{
-      opacity: 0;
-
-    }
-    h2{
-      top: 10px;
-   
-  }
-  .jop{
-
-      top: 35px;
-  }
-  }
   img{
     border: 10px solid white;
     width: 170px;

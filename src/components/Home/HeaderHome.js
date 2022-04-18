@@ -2,7 +2,8 @@ import { Container } from '@mui/material'
 import React from 'react'
 import styled from "styled-components"
 import Obacity from "../../assets/backopacity.svg"
-import TimerHeader from './TimerHeader'
+import Header from "../../assets/header.svg"
+
 import TwoButtonHeader from './TwoButtonHeader'
 
 const HeaderHome = () => {
@@ -18,25 +19,7 @@ const HeaderHome = () => {
                 <TwoButtonHeader/>
             </LeftHeader>
             <RightHeader>
-                <div className='header-timer'>
-                <h1>cryptocash</h1>
-                <p>Start At 17 january ,5PM GMT</p>
-                </div>
-                <TimerHeader/>
-                <div className='fotter-Timer'>
-                <h1>$35,500,600</h1>
-                <p>colected for now</p>
-                </div>
-                <div className='color-line'>
-                <div className='title-color'>
-                <span>$4.5M</span>
-                <span>$15.5M</span>
-                </div>
-                <div className='orange-line'>
-                    <span></span>
-
-                </div>
-                </div>
+               <img src={Header} />
             </RightHeader>
         </MainHeader>
       </Container>
@@ -45,7 +28,7 @@ const HeaderHome = () => {
 }
 const StyleHeaderHome = styled.div`
 position: relative;
-
+z-index: 40;
 
 &::after{
 content: "";
@@ -98,62 +81,31 @@ p{
 }
 `
 const RightHeader = styled.div`
-padding: 20px ;
-background-color: var(--primary-color-obacity);
-@media (max-width:739px) {
-        margin-top: 50px;
-    }
-.header-timer ,.fotter-Timer{
-    padding: 10px 0;
-    width: 350px;
-    @media (max-width:768px) {
-        width: 320px;
-    }
-    @media (max-width:739px) {
-        width: 310px;
+img{
+    animation-name: MoveUpDown;
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -moz-animation-direction: alternate;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    width: 450px;
+}
+@media (max-width:768px) {
+    img{
+    width: 340px;
+}
     }
     @media (max-width:350px) {
-        width: 250px;
-    }
-    h1{
-    color: white;
-    }
-    p{
-    color:var(--primary-color);
-    padding: 3px;
-    opacity: 0.8;
-    
-    }
+    img{
+    width: 310px;
 }
-.color-line{
-    .title-color{
-        display: flex;
-        justify-content: space-between;
-        color: wheat;
-        font-size: 12px;
-        font-weight: 800;
     }
-    .orange-line{
-        position: relative;
-        width: 100%;
-        height: 20px;
-        background-color: var(--primary-color);
-        border-radius: 14px;
-        margin: 8px 0;
-        
-        &::after{
-        content:"";
-        position: absolute;
-        top: -8px;
-        width: 80%;
-        height: inherit;
-        background-color: var(--orange-color);
-        border-radius: 14px;
-        margin: 8px 0;   
-        }
-        
-    }
-}
+
 
     
 

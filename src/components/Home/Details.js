@@ -9,7 +9,7 @@ const Details = () => {
         <Container maxWidth="lg">
         <MainDetalis id="Prx Features">
             <LeftDetalis>
-                <h1>ICO Details</h1>
+                <h1>Time is money with 64 Store  </h1>
                 <p>Cryptocurrency mining is now becoming a fruitful investment alternative all over the world, as more and more
 people are showing interest in earning more. Earlier mining could be done by any of the computing devices,
 but due to the difficulty of the algorithms, it increased in intensity over time. The data and computational
@@ -41,7 +41,10 @@ const LeftDetalis = styled.div`
 h1{
     color: white;
     padding: 15px 0;
-    font-size: 38px;
+    font-size: 30px;
+    @media (max-width:400px) {
+        font-size: 25px;
+    }
 }
 p{
     width: 480px;

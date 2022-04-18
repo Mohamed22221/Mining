@@ -19,12 +19,12 @@ const AskQuestion = () => {
         <div className='item-left'>
             <img src={wats} />
             <h4>WhatsApp</h4>
-            <p><LinkIcon className='icon-link' /></p>
+            <a href="https://wa.me/96522209570"><LinkIcon className='icon-link' /></a>
         </div>
         <div className='item-left'>
             <img src={insta}  />
             <h4>Instagram</h4>
-            <p><LinkIcon className='icon-link' /></p>
+            <a href='https://www.instagram.com/easymedia_agency/'><LinkIcon className='icon-link' /></a>
         </div>
        
         </LeftAsk>
@@ -101,7 +101,7 @@ padding-left: 40px;
         opacity: 0.6;
         padding: 8px 0;
     }
-    p{
+    a{
         margin: 5px 0;
         padding: 5px 60px;
       background-color: transparent;
