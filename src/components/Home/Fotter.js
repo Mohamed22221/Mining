@@ -28,6 +28,8 @@ const Fotter = () => {
 const StyleMainFotter = styled.div`
 border-top: 1px solid #ebebeb69;
 padding: 40px;
+position: relative;
+z-index: 40;
 `
 const TopFotter = styled.div`
     color: white;
