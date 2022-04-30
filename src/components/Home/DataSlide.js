@@ -13,8 +13,8 @@ const DataSlide = [
     },
     {
         id:2,
-        name:"Ali sayed",
-        jop:"proggramer",
+        name:"Fahed Al-Saleh ",
+        jop:"CEO",
         img:preson2,
         nameicon:"Linkedin" ,
         link:"adk"
