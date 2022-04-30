@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Mining/static/css/main.750971f1.css",
-    "main.js": "/Mining/static/js/main.0114770e.js",
+    "main.js": "/Mining/static/js/main.35b36401.js",
     "static/media/backopacity.svg": "/Mining/static/media/backopacity.8050760047fab087633098b9fe43a59b.svg",
+    "static/media/person2.jpg": "/Mining/static/media/person2.9e199d8144c8df15cb0b.jpg",
     "static/media/circle.svg": "/Mining/static/media/circle.015a5560bd2c953ad887b9e97e3f33e9.svg",
     "static/media/header.svg": "/Mining/static/media/header.3e857b0969c49390852193ded1f1709f.svg",
     "static/media/mining1.svg": "/Mining/static/media/mining1.e15a57d510562c9aee8c1bfab666a574.svg",
     "static/media/person1.jpg": "/Mining/static/media/person1.ca59d6d48f2615408f80.jpg",
-    "static/media/person2.png": "/Mining/static/media/person2.afc8692dc8b0c181f699.png",
     "static/media/logo.png": "/Mining/static/media/logo.ea90db6ba928820387a5.png",
     "index.html": "/Mining/index.html",
     "static/media/backopacity3.svg": "/Mining/static/media/backopacity3.71a2a751014825bdd66d09ccf23f0717.svg",
     "static/media/backopacity2.svg": "/Mining/static/media/backopacity2.bba8149cbf80f5cabfefd4a7dd0e3961.svg",
     "main.750971f1.css.map": "/Mining/static/css/main.750971f1.css.map",
-    "main.0114770e.js.map": "/Mining/static/js/main.0114770e.js.map"
+    "main.35b36401.js.map": "/Mining/static/js/main.35b36401.js.map"
   },
   "entrypoints": [
     "static/css/main.750971f1.css",
-    "static/js/main.0114770e.js"
+    "static/js/main.35b36401.js"
   ]
 }
