@@ -16,7 +16,6 @@ const Fotter = () => {
                   <a href='#About'>About</a> 
                   <a href='#Contact'>Contact</a>   
                   <a href='#Powerd BY'>Powerd BY</a>
-                   
                 </div>
            
             </TopFotter> 

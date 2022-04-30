@@ -1,5 +1,5 @@
 import preson1 from "../../assets/person1.jpg"
-import preson2 from "../../assets/person2.png"
+import preson2 from "../../assets/person2.jpg"
 
 
 const DataSlide = [
